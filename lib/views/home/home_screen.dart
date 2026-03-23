@@ -143,7 +143,7 @@ class _DashboardTab extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      const Text('🎯 Mục tiêu ngân sách', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15)),
+                      const Text('Mục tiêu ngân sách', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15)),
                       const SizedBox(height: 12),
                       BudgetProgressBar(target: budgetVM.currentGoal!.targetAmount, spent: budgetVM.totalSpent),
                     ],

@@ -64,7 +64,7 @@ class _VoiceTransactionScreenState extends State<VoiceTransactionScreen>
 
         return Scaffold(
           appBar: AppBar(
-            title: const Text('🎤 Voice AI Demo'),
+            title: const Text('Voice AI Demo'),
             actions: [
               IconButton(
                 icon: const Icon(Icons.keyboard_outlined),

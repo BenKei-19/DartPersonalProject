@@ -1,4 +1,4 @@
-# 🧧 Lì Xì Tracker - AI-Powered Lunar New Year Gift Manager
+# Lì Xì Tracker - AI-Powered Lunar New Year Gift Manager
 
 **Lì Xì Tracker** is a modern Flutter application designed to help users manage their cultural tradition of giving and receiving lucky money (Lì Xì) during the Lunar New Year. 
 
@@ -6,36 +6,36 @@ With a focus on speed and intelligence, the app features a cutting-edge **Voice-
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-### 🎙️ AI Voice Assistant (Powered by Google Gemini)
+### AI Voice Assistant (Powered by Google Gemini)
 Stop typing! Just say: *"Got 500k from Grandma on the first day of Tet"* or *"Give 200k to my little cousin Nam"*.
 - **Natural Language Processing**: Automatically extracts Amount, Person, Date, and Relationship Category.
 - **Smart Suggestions**: Detects future dates and offers to add reminders automatically.
 - **Bilingual Support**: Optimized for Vietnamese and English recognition.
 
-### 📊 Financial Dashboard
+### Financial Dashboard
 - **Real-time Statistics**: Track your total balance (Received vs. Given).
 - **Interactive Charts**: Visualize your lucky money flow by category or date.
 - **Budgeting**: Set goals for your gifting budget and track progress.
 
-### 👥 Relationship Management
+### Relationship Management
 - **Categorization**: Groups transactions by family, friends, colleagues, or neighbors.
 - **History Tracking**: Never forget who gave you what!
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: Flutter (3.x) with Dart.
 - **State Management**: Provider (MVVM Architecture).
-- **Artificial Intelligence**: Google Generative AI (Gemini 1.5 Flash).
+- **Artificial Intelligence**: Google Generative AI (Gemini 2.5 Flash).
 - **Database**: SQLite (local-first for privacy).
 - **Utilities**: `speech_to_text`, `flutter_dotenv`, `intl`.
 
 ---
 
-## ⚙️ Project Setup
+## Project Setup
 
 ### 1. Prerequisites
 - Flutter SDK installed.
@@ -63,13 +63,7 @@ flutter pub get
 # Run the app
 flutter run
 ```
-
 ---
 
-## 📸 Screenshots
-*(Coming soon - See Walkthrough for demo clips)*
-
----
-
-## 📄 License
+## License
 Part of a Personal Project. All rights reserved.
