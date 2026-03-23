@@ -10,6 +10,7 @@ import 'views/home/home_screen.dart';
 import 'views/transactions/transaction_form_screen.dart';
 import 'views/categories/category_list_screen.dart';
 import 'views/budget/budget_screen.dart';
+import 'views/voice/voice_transaction_screen.dart';
 
 class LixiTrackerApp extends StatelessWidget {
   const LixiTrackerApp({super.key});
@@ -34,6 +35,7 @@ class LixiTrackerApp extends StatelessWidget {
         '/transaction-form': (_) => const TransactionFormScreen(),
         '/categories': (_) => const CategoryListScreen(),
         '/budget': (_) => const BudgetScreen(),
+        '/voice-transaction': (_) => const VoiceTransactionScreen(),
       },
     );
   }

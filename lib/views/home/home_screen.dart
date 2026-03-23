@@ -88,6 +88,11 @@ class _DashboardTab extends StatelessWidget {
         automaticallyImplyLeading: false,
         actions: [
           IconButton(
+            icon: const Icon(Icons.mic, color: AppConstants.primaryRed),
+            tooltip: 'Thêm bằng giọng nói',
+            onPressed: () => Navigator.of(context).pushNamed('/voice-transaction').then((_) => onRefresh()),
+          ),
+          IconButton(
             icon: const Icon(Icons.refresh),
             onPressed: onRefresh,
           ),

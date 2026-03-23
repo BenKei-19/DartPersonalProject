@@ -1,16 +1,75 @@
-# prm_final_project
+# 🧧 Lì Xì Tracker - AI-Powered Lunar New Year Gift Manager
 
-A new Flutter project.
+**Lì Xì Tracker** is a modern Flutter application designed to help users manage their cultural tradition of giving and receiving lucky money (Lì Xì) during the Lunar New Year. 
 
-## Getting Started
+With a focus on speed and intelligence, the app features a cutting-edge **Voice-to-Transaction AI assistant** powered by **Google Gemini**.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Key Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🎙️ AI Voice Assistant (Powered by Google Gemini)
+Stop typing! Just say: *"Got 500k from Grandma on the first day of Tet"* or *"Give 200k to my little cousin Nam"*.
+- **Natural Language Processing**: Automatically extracts Amount, Person, Date, and Relationship Category.
+- **Smart Suggestions**: Detects future dates and offers to add reminders automatically.
+- **Bilingual Support**: Optimized for Vietnamese and English recognition.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 📊 Financial Dashboard
+- **Real-time Statistics**: Track your total balance (Received vs. Given).
+- **Interactive Charts**: Visualize your lucky money flow by category or date.
+- **Budgeting**: Set goals for your gifting budget and track progress.
+
+### 👥 Relationship Management
+- **Categorization**: Groups transactions by family, friends, colleagues, or neighbors.
+- **History Tracking**: Never forget who gave you what!
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Flutter (3.x) with Dart.
+- **State Management**: Provider (MVVM Architecture).
+- **Artificial Intelligence**: Google Generative AI (Gemini 1.5 Flash).
+- **Database**: SQLite (local-first for privacy).
+- **Utilities**: `speech_to_text`, `flutter_dotenv`, `intl`.
+
+---
+
+## ⚙️ Project Setup
+
+### 1. Prerequisites
+- Flutter SDK installed.
+- An Android Emulator (with Google Apps) or a Physical Device.
+
+### 2. API Configuration
+Create a `.env` file in the root directory and add your Google Gemini API Key:
+```env
+GEMINI_API_KEY=YOUR_API_KEY_HERE
+```
+*Note: You can get your key at [Google AI Studio](https://aistudio.google.com/).*
+
+### 3. Speech Recognition Setup
+- **Windows**: Enable "Online Speech Recognition" in Privacy Settings and install the Vietnamese Speech pack.
+- **Android**: Ensure the "Google" app is installed and "Google Voice Typing" is enabled.
+
+### 4. Installation
+```bash
+# Clone the repository
+git clone https://github.com/BenKei-19/DartPersonalProject.git
+
+# Install dependencies
+flutter pub get
+
+# Run the app
+flutter run
+```
+
+---
+
+## 📸 Screenshots
+*(Coming soon - See Walkthrough for demo clips)*
+
+---
+
+## 📄 License
+Part of a Personal Project. All rights reserved.
